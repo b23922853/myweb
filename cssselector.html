@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 50px;
+            height: 50px;
+            background-color: gray ;
+        }
+        .red{
+            background-color: red ;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        #green{
+            background-color: green;
+        }
+        .small{
+            width: 150px;
+            height: 150px;
+            margin: 75px;
+        }
+        .mid{
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+        }
+        .big{
+            width: 300px;
+            height: 300px;
+        }
+        .big.red{
+            background-color: purple;
+        }
+        .small.blue{
+            background-color: cyan;
+        }
+        #mid.orange{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>A</div>
+    50x50 灰色
+    <div class="red">B</div>
+    50x50 紅色
+    <div class="blue red">C</div>
+    50x50 藍色
+    <div class="small blue">D</div>
+    150x150 青色
+    <div class="big blue">E</div>
+    300x300 藍色
+    <div class="red blue yellow green big small mid">F</div>
+    300x300 青色
+    <div class="red blue big" id="green">G</div>
+    300x300 綠色
+    <div class="orange mid">H</div>
+    200x200 灰色
+    <div class="big red yellow" style="background-color: brown;">I</div>
+    300x300 棕色
+    <div class="mid" id="orange">J</div>
+    200x200 灰色
+</body>
+</html>
